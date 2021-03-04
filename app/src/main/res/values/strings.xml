@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PokemonApp</string>
+    <string name="ingresa_el_nombre_del_pokemon" />
+    <string name="ingrese_el_nombre_del_pokemon" />
 </resources>
