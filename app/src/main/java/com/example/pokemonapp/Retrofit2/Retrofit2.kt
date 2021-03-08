@@ -1,11 +1,9 @@
-package com.example.pokemonapp
+package com.example.pokemonapp.Retrofit2
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class Retrofit2() {
-
-
     private val utilsUrls: PokeApi
 
     var Utils = Utils()
@@ -18,7 +16,7 @@ class Retrofit2() {
         utilsUrls = retrofit.create(PokeApi::class.java)
     }
 
-    fun getService(): PokeApi{
+    fun getService(): PokeApi {
         return utilsUrls
     }
 }
